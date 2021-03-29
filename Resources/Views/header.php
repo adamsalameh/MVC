@@ -2,8 +2,8 @@
 <html>
 <head>
   <title><?php echo "blog"; ?></title>
-  <link rel="stylesheet" href="/mvc/Resources/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/mvc/Resources/css/blog.css">
+  <link rel="stylesheet" href="<?php echo URLROOT; ?>/Resources/css/bootstrap.min.css">
+  <link rel="stylesheet" href="<?php echo URLROOT; ?>/Resources/css/blog.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900">
   <style>
       .bd-placeholder-img {
@@ -20,6 +20,6 @@
           }
         }
   </style>
-  <link rel="stylesheet" href="/mvc/Resources/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai_sublime.css">
+  <link rel="stylesheet" href="<?php echo URLROOT; ?>/Resources/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai_sublime.css">
 </head>
   

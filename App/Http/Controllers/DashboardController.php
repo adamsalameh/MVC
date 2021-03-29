@@ -350,9 +350,7 @@ class DashboardController extends BaseController
     {
         $category = new Category($this->db);
         if (isset($id)) {
-            $data = $category->delete($id);
-            var_dump($data);
-            die();        
+            $data = $category->delete($id);                    
             flash('post_message', 'Your category deleted successfully!');        
         } else {       
             flash('post_message', 'Error Your category didn\'t deleted successfully!');

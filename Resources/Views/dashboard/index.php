@@ -117,8 +117,8 @@
                       <td><?php echo $user->getName(); ?></td>
                       <td><?php echo $user->getEmail(); ?></td>            
                       <td><?php echo $user->getCreatedAt(); ?></td>            
-                      <td><a href="/mvc/dashboard/editUser/<?php echo $user->getId();?>"><i class="far fa-edit"></i></a></td>
-                      <td><a href="/mvc/dashboard/destroyUser/<?php echo $user->getId();?>"><i class="fas fa-trash-alt"></i></a></td> 
+                      <td><a href="<?php echo URLROOT; ?>/dashboard/editUser/<?php echo $user->getId();?>"><i class="far fa-edit"></i></a></td>
+                      <td><a href="<?php echo URLROOT; ?>/dashboard/destroyUser/<?php echo $user->getId();?>"><i class="fas fa-trash-alt"></i></a></td> 
                   </tr>
                   <?php endforeach; ?>                  
                 </tbody>

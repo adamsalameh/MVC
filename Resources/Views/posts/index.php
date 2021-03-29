@@ -18,7 +18,7 @@
           <div class="card-body">
             <h2 class="card-title"><?php echo $post->getTitle(); ?></h2>
             <p class="card-text"><?php echo $post->getBody(); ?></p>
-            <a href="/mvc/posts/show/<?php echo $post->getSlug();?>" class="btn btn-primary">Read More &rarr;</a>
+            <a href="<?php echo URLROOT; ?>/posts/show/<?php echo $post->getSlug();?>" class="btn btn-primary">Read More &rarr;</a>
           </div>
           <div class="card-footer text-muted">
             Posted on <?php echo $post->getCreatedAt(); ?> by
@@ -40,7 +40,7 @@
       </div>
     </div>
   </div>
-<script src="/mvc/Resources/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js"></script>
+<script src="<?php echo URLROOT; ?>/Resources/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 </body>
 <?php require APPROOT . '/Resources/Views/footer.php'; ?>

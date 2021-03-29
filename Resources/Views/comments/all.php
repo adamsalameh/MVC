@@ -49,7 +49,7 @@
             <td><?php echo $comment->getUserName(); ?></td>
             <td><?php echo $comment->getCreatedAt(); ?></td>
             <td><?php echo $comment->getStatus(); ?> <a href="/mvc/dashboard/approveComment/<?php echo $comment->getId();?>"><i class="fas fa-check"></i></a></td>
-            <td><a href="/mvc/dashboard/destroyComment/<?php echo $comment->getId();?>"><i class="fas fa-trash-alt"></i></a></td> 
+            <td><a href="<?php echo URLROOT; ?>/dashboard/destroyComment/<?php echo $comment->getId();?>"><i class="fas fa-trash-alt"></i></a></td> 
 
         </tr>
         <?php endforeach; ?>

@@ -47,9 +47,9 @@
             <td><?php echo $post->name; ?></td>
             <td><?php echo $post->getCreatedAt(); ?></td>
             <td><?php echo $post->getUpdatedAt(); ?></td>
-            <td><a href="/mvc/posts/show/<?php echo $post->getId();?>"><i class="far fa-eye"></i></a></td>
-            <td><a href="/mvc/dashboard/editPost/<?php echo $post->getId();?>"><i class="far fa-edit"></i></a></td>
-            <td><a href="/mvc/dashboard/destroyPost/<?php echo $post->getId();?>"><i class="fas fa-trash-alt"></i></a></td> 
+            <td><a href="<?php echo URLROOT; ?>/posts/show/<?php echo $post->getId();?>"><i class="far fa-eye"></i></a></td>
+            <td><a href="<?php echo URLROOT; ?>/dashboard/editPost/<?php echo $post->getId();?>"><i class="far fa-edit"></i></a></td>
+            <td><a href="<?php echo URLROOT; ?>/dashboard/destroyPost/<?php echo $post->getId();?>"><i class="fas fa-trash-alt"></i></a></td> 
 
         </tr>
         <?php endforeach; ?>

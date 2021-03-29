@@ -106,7 +106,7 @@
   </div>
 
 </div>
-<script src="/mvc/Resources/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js"></script>
+<script src="<?php echo URLROOT; ?>/Resources/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 </body>
 <?php require APPROOT . '/Resources/Views/footer.php'; ?>

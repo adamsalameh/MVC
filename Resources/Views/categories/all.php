@@ -44,9 +44,9 @@
             <td><?php echo $category->getSlug(); ?></td>            
             <!-- <td><?php //echo $category->getCreatedAt(); ?></td>
             <td><?php //echo $category->getUpdatedAt(); ?></td> -->
-            <td><a href="/mvc/categorys/show/<?php echo $category->getId();?>"><i class="far fa-eye"></i></a></td>
-            <td><a href="/mvc/dashboard/editCategory/<?php echo $category->getId();?>"><i class="far fa-edit"></i></a></td>
-            <td><a href="/mvc/dashboard/destroyCategory/<?php echo $category->getId();?>"><i class="fas fa-trash-alt"></i></a></td> 
+            <td><a href="<?php echo URLROOT; ?>/categorys/show/<?php echo $category->getId();?>"><i class="far fa-eye"></i></a></td>
+            <td><a href="<?php echo URLROOT; ?>/dashboard/editCategory/<?php echo $category->getId();?>"><i class="far fa-edit"></i></a></td>
+            <td><a href="<?php echo URLROOT; ?>/dashboard/destroyCategory/<?php echo $category->getId();?>"><i class="fas fa-trash-alt"></i></a></td> 
 
         </tr>
         <?php endforeach; ?>

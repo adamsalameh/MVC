@@ -3,7 +3,7 @@
 <!-- ckeditor -->
  <script src="http://cdn.ckeditor.com/4.6.2/standard-all/ckeditor.js"></script>
 <script src="/mvc/Resources/ckeditor/ckeditor.js"></script>
-<link rel="stylesheet" href="/mvc/Resources/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai_sublime.css">
+<link rel="stylesheet" href="<?php echo URLROOT; ?>/Resources/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai_sublime.css">
 <!-- <link href="https://cdn.cloudflare.com/ajax/libs/ckeditor/plugins/codesnippet/lib/highlight/styles/default.css" rel="stylesheet">
     <script src="https://github.com/ckeditor/ckeditor4/blob/master/plugins/codesnippetgeshi/plugin.js"></script> -->
 <body>
